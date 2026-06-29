@@ -1,0 +1,34 @@
+{
+  "name": "smarthire-ai-pro-v2",
+  "version": "2.0.0",
+  "description": "Secure AI Resume Analyzer and Job Match Predictor with authentication, SQLite database, Groq analysis, and Gemini resume generation.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "ai",
+    "resume-analyzer",
+    "job-match",
+    "groq",
+    "gemini",
+    "sqlite",
+    "auth",
+    "ats"
+  ],
+  "author": "SmartHire AI",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "express-rate-limit": "latest",
+    "groq-sdk": "latest",
+    "helmet": "latest"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

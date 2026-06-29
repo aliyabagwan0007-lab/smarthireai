@@ -1,0 +1,12 @@
+AI/ML Internship - NLP Automation
+
+We are looking for an AIML intern who can build practical machine learning and NLP solutions. The candidate should have strong Python skills and experience with data preprocessing, machine learning algorithms, model evaluation, and deployment.
+
+Required Skills:
+Python, Machine Learning, NLP, Data Analysis, Pandas, NumPy, Scikit-learn, SQL, Flask or FastAPI, Git, GitHub, REST API, communication, teamwork, problem solving.
+
+Good to Have:
+Deep Learning, TensorFlow or PyTorch, Streamlit dashboards, Hugging Face, prompt engineering, LLM integration, vector database, and cloud deployment.
+
+Responsibilities:
+Build NLP tools, analyze datasets, create ML models, evaluate accuracy, prepare documentation, and collaborate with the development team.

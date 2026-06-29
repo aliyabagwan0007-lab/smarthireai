@@ -1,0 +1,27 @@
+Aarav Khan
+AIML Student | Python Developer | NLP Enthusiast
+Email: aarav@example.com | Phone: +91 9876543210
+LinkedIn: linkedin.com/in/aarav-ai | GitHub: github.com/aarav-ai
+
+Education
+B.Tech Artificial Intelligence and Machine Learning, XYZ Institute of Technology, 2026
+
+Technical Skills
+Python, Machine Learning, Deep Learning, Natural Language Processing, Data Analysis, Pandas, NumPy, Scikit-learn, TensorFlow, Flask, Streamlit, SQL, Git, GitHub, REST API, Statistics
+
+Projects
+AI Resume Analyzer
+Built an NLP application that compares resume text with job descriptions using TF-IDF, skill extraction, and similarity scoring. Added match percentage, missing skills, and AI improvement suggestions.
+
+Student Performance Predictor
+Developed a machine learning model using Python, Pandas, Scikit-learn, Logistic Regression, and Random Forest to predict student pass/fail outcomes with 87% accuracy.
+
+Customer Review Sentiment Analyzer
+Created an NLP sentiment classification system using preprocessing, TF-IDF, and Naive Bayes. Deployed a Flask API for real-time review predictions.
+
+Internship
+Data Science Intern - TechLearn Labs
+Cleaned datasets, performed feature engineering, trained classification models, and improved report generation time by 35%.
+
+Certifications
+Python for Data Science, Machine Learning Basics, Introduction to Artificial Intelligence

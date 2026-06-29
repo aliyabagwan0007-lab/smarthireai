@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartHire AI</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <section id="landingView" class="view landing-view">
+    <header class="site-nav">
+      <a class="brand" href="#" aria-label="SmartHire AI home">
+        <img class="brand-logo" src="icon.png" alt="" />
+        <span>SmartHire AI</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <button class="link-btn" id="navProduct">How it works</button>
+        <button class="link-btn" id="navSecurity">Privacy</button>
+        <button class="link-btn" id="navResume">Start</button>
+      </nav>
+      <button class="nav-cta" id="openSignInTop">Sign in</button>
+    </header>
+
+    <main class="hero-shell">
+      <section class="hero-copy">
+        <p class="eyebrow">Student resume builder</p>
+        <h1>Build a job-ready resume in simple steps.</h1>
+        <p>Paste your resume, add the job description, and get a clear match score, missing skills, improvement plan, and clean ATS resume.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" id="startAnalysisBtn">Start step-by-step</button>
+          <button class="btn btn-ghost" id="openCreateTop">Create free account</button>
+        </div>
+        <div class="student-points" aria-label="What students get">
+          <span>Easy paste flow</span>
+          <span>Skill gap checklist</span>
+          <span>ATS resume preview</span>
+        </div>
+      </section>
+
+      <section class="hero-preview" aria-label="App preview">
+        <div class="preview-window">
+          <div class="window-bar"><span></span><span></span><span></span><b>Resume workspace</b></div>
+          <div class="preview-steps">
+            <article><b>1</b><span>Add profile</span></article>
+            <article><b>2</b><span>Paste resume</span></article>
+            <article><b>3</b><span>Add job</span></article>
+            <article><b>4</b><span>Build</span></article>
+          </div>
+          <div class="preview-card">
+            <small>Match score</small>
+            <strong>88%</strong>
+            <p>Excellent match for AI/ML Intern</p>
+          </div>
+          <div class="preview-lines" aria-hidden="true">
+            <i></i><i></i><i></i><i></i>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="landing-band steps-band" id="howItWorks">
+      <div class="landing-inner">
+        <div class="section-head">
+          <p class="kicker">How it works</p>
+          <h2>Four steps, no confusion.</h2>
+          <p>SmartHire AI keeps the process simple for students applying to internships, placements, and first jobs.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <b>1</b>
+            <h3>Add your profile</h3>
+            <p>Enter your name, education, links, target role, and certifications.</p>
+          </article>
+          <article class="feature-card">
+            <b>2</b>
+            <h3>Paste your resume</h3>
+            <p>Add your current resume text or upload a text file.</p>
+          </article>
+          <article class="feature-card">
+            <b>3</b>
+            <h3>Add the job post</h3>
+            <p>Paste the internship or job description you want to match.</p>
+          </article>
+          <article class="feature-card">
+            <b>4</b>
+            <h3>Build and improve</h3>
+            <p>Get a match score, missing skills, action plan, and ATS resume.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="landing-band about-band" id="aboutSite">
+      <div class="landing-inner about-grid">
+        <div>
+          <p class="kicker">About SmartHire AI</p>
+          <h2>Made for students who want a clearer resume path.</h2>
+          <p>Most resume tools feel written for experienced professionals. SmartHire AI is designed around student workflows: projects, internships, coursework, certifications, and skill gaps.</p>
+        </div>
+        <div class="about-list">
+          <article>
+            <h3>Placement ready</h3>
+            <p>Shape your resume around the exact role you are applying for.</p>
+          </article>
+          <article>
+            <h3>Simple language</h3>
+            <p>Understand what is strong, what is missing, and what to add next.</p>
+          </article>
+          <article>
+            <h3>ATS focused</h3>
+            <p>Generate a clean resume layout that is easy to download or print.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="landing-band testimonial-band">
+      <div class="landing-inner">
+        <div class="section-head">
+          <p class="kicker">Student feedback</p>
+          <h2>Built for everyday applicants.</h2>
+        </div>
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <p>"The step-by-step flow helped me understand why my resume was not matching internship descriptions."</p>
+            <strong>Priya S.</strong>
+            <span>Data Science Student</span>
+          </article>
+          <article class="testimonial-card">
+            <p>"I liked that it gave missing keywords and a simple plan instead of only a score."</p>
+            <strong>Rohan K.</strong>
+            <span>Final Year CSE</span>
+          </article>
+          <article class="testimonial-card">
+            <p>"The ATS resume preview made it much easier to submit a clean version for placements."</p>
+            <strong>Aisha M.</strong>
+            <span>AI/ML Intern Applicant</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="landing-band privacy-band" id="privacySection">
+      <div class="landing-inner privacy-panel">
+        <div>
+          <p class="kicker">Privacy</p>
+          <h2>Your resume workspace stays private.</h2>
+          <p>Your account stores your resume history in this workspace so you can improve each application over time.</p>
+        </div>
+        <button class="btn btn-primary" id="footerStartBtn">Start building</button>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="landing-inner footer-grid">
+        <div class="brand footer-brand"><img class="brand-logo" src="icon.png" alt="" /><span>SmartHire AI</span></div>
+        <p>Student resume analyzer and job match builder powered by Vora-3.0.</p>
+        <div class="footer-links">
+          <button class="link-btn footer-link" id="footerHowBtn">How it works</button>
+          <button class="link-btn footer-link" id="footerPrivacyBtn">Privacy</button>
+          <button class="link-btn footer-link" id="footerSignInBtn">Sign in</button>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <section id="authView" class="view auth-view" hidden>
+    <button class="back-btn" id="backHome">Home</button>
+    <div class="auth-shell">
+      <aside class="auth-art">
+        <div class="brand"><img class="brand-logo" src="icon.png" alt="" /><span>SmartHire AI</span></div>
+        <h2>Your private resume desk.</h2>
+        <p>Sign in once, keep your resume history, and continue improving for every internship or job you apply to.</p>
+        <div class="security-list">
+          <span>Private account</span>
+          <span>Saved resume history</span>
+          <span>Resume guidance</span>
+        </div>
+      </aside>
+
+      <main class="auth-panel">
+        <div class="auth-tabs">
+          <button class="active" id="signInTab">Sign in</button>
+          <button id="signUpTab">Create account</button>
+        </div>
+
+        <form id="signInForm" class="auth-form">
+          <h1>Welcome back</h1>
+          <label>Email<input type="email" id="loginEmail" autocomplete="email" required placeholder="you@example.com" /></label>
+          <label>Password<input type="password" id="loginPassword" autocomplete="current-password" required placeholder="Minimum 8 characters" /></label>
+          <button class="btn btn-primary full" type="submit">Open workspace</button>
+        </form>
+
+        <form id="signUpForm" class="auth-form" hidden>
+          <h1>Create your account</h1>
+          <label>Name<input type="text" id="signupName" autocomplete="name" required placeholder="Your full name" /></label>
+          <label>Email<input type="email" id="signupEmail" autocomplete="email" required placeholder="you@example.com" /></label>
+          <label>Password<input type="password" id="signupPassword" autocomplete="new-password" required placeholder="Minimum 8 characters" /></label>
+          <button class="btn btn-primary full" type="submit">Create workspace</button>
+        </form>
+
+        <p class="form-message" id="authMessage"></p>
+      </main>
+    </div>
+  </section>
+
+  <section id="appView" class="view app-view" hidden>
+    <aside class="sidebar">
+      <div class="brand sidebar-brand"><img class="brand-logo" src="icon.png" alt="" /><span>SmartHire AI</span></div>
+      <div class="user-card">
+        <div class="avatar" id="userInitial">U</div>
+        <div><strong id="userName">User</strong><small id="userEmail">user@email.com</small></div>
+      </div>
+      <div class="history-head">
+        <span>My resumes</span>
+        <button id="refreshHistory" title="Refresh history">Refresh</button>
+      </div>
+      <div class="history-list" id="historyList">
+        <p>No saved resumes yet.</p>
+      </div>
+      <button class="logout-btn" id="logoutBtn">Sign out</button>
+    </aside>
+
+    <main class="workspace">
+      <header class="workspace-top">
+        <div>
+          <p class="kicker">Resume workspace</p>
+          <h1>Let us build your resume step by step.</h1>
+        </div>
+        <div class="top-actions">
+          <button class="btn btn-soft" id="loadSampleBtn">Load sample</button>
+          <button class="btn btn-soft" id="clearBtn">Clear</button>
+          <button class="btn btn-primary" id="generateBtn">Build resume</button>
+        </div>
+      </header>
+
+      <section class="pipeline" aria-label="Resume steps">
+        <div class="step active" id="stepInput"><b>1</b><span>Profile</span></div>
+        <div class="line"></div>
+        <div class="step" id="stepCheck"><b>2</b><span>Resume check</span></div>
+        <div class="line"></div>
+        <div class="step" id="stepResume"><b>3</b><span>ATS resume</span></div>
+        <div class="line"></div>
+        <div class="step" id="stepSaved"><b>4</b><span>Saved</span></div>
+      </section>
+
+      <section class="input-panel" id="inputPanel">
+        <div class="panel-title">
+          <div>
+            <p class="kicker">Step 1</p>
+            <h2>Enter your basic details</h2>
+          </div>
+          <p class="panel-hint">Fill what you know. Empty fields are okay.</p>
+        </div>
+
+        <div class="profile-grid">
+          <label>Full name<input id="fullName" placeholder="Your full name" /></label>
+          <label>Email<input id="profileEmail" placeholder="you@example.com" /></label>
+          <label>Phone<input id="phone" placeholder="+91 ..." /></label>
+          <label>Location<input id="location" placeholder="City, Country" /></label>
+          <label>LinkedIn<input id="linkedin" placeholder="linkedin.com/in/yourname" /></label>
+          <label>GitHub<input id="github" placeholder="github.com/yourname" /></label>
+          <label>Portfolio<input id="portfolio" placeholder="yourportfolio.com" /></label>
+          <label>Target role<input id="targetRole" placeholder="AI/ML Intern" /></label>
+        </div>
+
+        <div class="wide-grid">
+          <label>Education details<input id="education" placeholder="B.Tech AIML, college, year, CGPA" /></label>
+          <label>Certifications<input id="certifications" placeholder="Python, ML, data science certifications" /></label>
+        </div>
+
+        <div class="text-grid">
+          <article class="text-card">
+            <div class="text-top">
+              <div><p class="kicker">Step 2</p><label for="resumeText">Paste your current resume</label></div>
+              <small id="resumeStats">0 words</small>
+            </div>
+            <textarea id="resumeText" placeholder="Paste your resume text here. Projects, skills, education, internships, achievements..."></textarea>
+            <div class="file-control"><input type="file" id="resumeFile" accept=".txt,.md,.csv" /><label for="resumeFile">Upload text file</label></div>
+          </article>
+
+          <article class="text-card">
+            <div class="text-top">
+              <div><p class="kicker">Step 3</p><label for="jobText">Paste the job description</label></div>
+              <small id="jobStats">0 words</small>
+            </div>
+            <textarea id="jobText" placeholder="Paste the internship or job description here. Include required skills and responsibilities..."></textarea>
+            <div class="file-control"><input type="file" id="jobFile" accept=".txt,.md,.csv" /><label for="jobFile">Upload text file</label></div>
+          </article>
+        </div>
+
+        <div class="loading" id="loadingBox" hidden>
+          <div class="loader"></div>
+          <div><strong id="loadingTitle">Reading your resume...</strong><p id="loadingText">Checking skills, gaps, score, and resume structure.</p></div>
+        </div>
+      </section>
+
+      <section id="resultsPanel" class="results-panel" hidden>
+        <div class="results-head">
+          <div>
+            <p class="kicker">Step 4</p>
+            <h2>Your result and ATS resume</h2>
+          </div>
+          <div class="export-actions">
+            <button class="btn btn-soft" id="downloadHtmlBtn">Download HTML</button>
+            <button class="btn btn-soft" id="printResumeBtn">Print or save PDF</button>
+          </div>
+        </div>
+
+        <div class="results-grid">
+          <article class="score-panel">
+            <div class="ring big" id="matchRing" style="--score:0"><span id="matchScore">0%</span></div>
+            <div>
+              <p class="kicker">Match result</p>
+              <h3 id="strengthLevel">Result appears here</h3>
+              <p id="summaryText">Your guidance appears here after you build.</p>
+              <small id="modelLine">Resume analysis complete</small>
+            </div>
+          </article>
+          <article class="mini-metrics">
+            <div><span>ATS score</span><b id="atsScore">0%</b><i><em id="atsBar"></em></i></div>
+            <div><span>Confidence</span><b id="confidenceScore">0%</b><i><em id="confidenceBar"></em></i></div>
+            <div class="role-box" id="roleGuess">Target role</div>
+          </article>
+        </div>
+
+        <div class="insight-grid">
+          <article class="detail-card"><h3>Already good</h3><ul id="strengthsList"></ul></article>
+          <article class="detail-card"><h3>Improve next</h3><ul id="gapsList"></ul></article>
+          <article class="detail-card"><h3>Resume strategy</h3><p id="strategyText" class="prompt-box"></p></article>
+        </div>
+
+        <div class="skill-grid">
+          <article class="detail-card"><h3>Matched skills</h3><div class="pill-list success" id="matchedSkills"></div></article>
+          <article class="detail-card"><h3>Missing skills</h3><div class="pill-list warning" id="missingSkills"></div></article>
+          <article class="detail-card"><h3>Keywords to add</h3><div class="pill-list info" id="recommendedKeywords"></div></article>
+        </div>
+
+        <div class="resume-layout">
+          <article class="detail-card plan-card">
+            <h3>Simple action plan</h3>
+            <ul id="planList"></ul>
+            <div class="saved-note" id="savedNote">Saved to your resume history.</div>
+          </article>
+          <article class="resume-preview-card">
+            <div class="resume-preview-head"><span>ATS resume preview</span><small id="resumeModelLine">Ready to download</small></div>
+            <iframe id="resumeFrame" title="Generated resume preview"></iframe>
+          </article>
+        </div>
+      </section>
+    </main>
+  </section>
+
+  <div class="toast" id="toast" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>
